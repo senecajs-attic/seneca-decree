@@ -1,5 +1,5 @@
 {
-  "name": "decree",
+  "name": "seneca-decree",
   "version": "0.0.1",
   "description": "A declaritive script runner for seneca-hapi microservices",
   "main": "decree.js",
