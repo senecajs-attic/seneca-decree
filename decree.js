@@ -24,7 +24,7 @@ module.exports = (opts, scripts, ready) => {
   })
 
   // get our input and based on it, our pattern
-  const input = (Minimist(process.argv.slice(2))._[0] || process.env.START || ''
+  const input = Minimist(process.argv.slice(2))._[0] || process.env.START || ''
   const pattern = Jsonic(input)
 
   // match our pattern or use the catch_all.
