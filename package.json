@@ -7,6 +7,9 @@
     "test": "exit 1"
   },
   "author": "Dean McDonnell (htpp://mcdonnelldean.me)",
+  "contributors": [
+    "Mircea Alexandru"
+  ],
   "license": "MIT",
   "dependencies": {
     "jsonic": "0.2.2",
